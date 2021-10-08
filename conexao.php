@@ -1,5 +1,5 @@
 <?php
-$conexao = mysqli_connect("mysql.web-ded-345522a.kinghost.net", "api10", "vingadores2020", "api10");
+$conexao = mysqli_connect("HOST", "LOGIN", "PASSWORD", "DB");
 $conexao->set_charset("utf8");
      
 if (!$conexao) {
